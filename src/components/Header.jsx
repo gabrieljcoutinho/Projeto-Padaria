@@ -28,7 +28,7 @@ const Header = () => {
 
                 <div className="movimentacaoDobtn">
                 <button className='btnHeader'>Shoop now</button>
-                <a href="#">Learn More</a>
+                <a href="#" className='linkLerMore'>Learn More</a>
                 </div>
 
             </di>
