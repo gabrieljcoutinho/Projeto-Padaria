@@ -12,7 +12,7 @@ const Produtos = () => {
 
 
       <div className="divsConteudo">
-1
+
       </div>
 
       <div className="divsConteudo">
@@ -30,7 +30,7 @@ const Produtos = () => {
 
 
 <div className="divsConteudo">
-1
+
 </div>
 
 <div className="divsConteudo">
