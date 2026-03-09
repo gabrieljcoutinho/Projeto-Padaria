@@ -31,17 +31,6 @@
     /* Centraliza a imagem */
     background-repeat: no-repeat;
     /* Evita repetição */
-
     width: 300px;
-    height: 200px;
-
     margin: 15px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: white;
-    font-weight: bold;
 }
