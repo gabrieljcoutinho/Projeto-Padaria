@@ -24,7 +24,7 @@ const Header = () => {
                 <h1 className='tituloprincipal'>Sweet Treats, <br />
                   Perfect Eats</h1>
 
-                  <br /><br />
+
 
                   <button className='btnheader'>Shoop now</button>
 
