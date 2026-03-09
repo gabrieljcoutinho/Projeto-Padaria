@@ -21,7 +21,7 @@ const Header = () => {
 
                 <p className="paragrafoHeader">Delicius Cafe</p>
 
-                <h1>Sweet Treats,Perfect Eats</h1>
+                <h1 className='tituloprincipal'>Sweet Treats,Perfect Eats</h1>
 
             </di>
 
