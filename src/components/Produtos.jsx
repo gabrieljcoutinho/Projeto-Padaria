@@ -37,19 +37,19 @@ const Produtos = () => {
         <div className="cardProduto">
           <img src={produt4} alt="produto 4" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
-          <p className="nomeDoProduto"></p>
+     <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
         <div className="cardProduto">
           <img src={produt5} alt="produto 5" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
-          <p className="nomeDoProduto"></p>
+     <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
         <div className="cardProduto">
           <img src={produt6} alt="produto 6" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
-          <p className="nomeDoProduto"></p>
+     <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
       </div>
