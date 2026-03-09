@@ -26,16 +26,10 @@ const Produtos = () => {
 <div class="div1">
 </div>
 
-<div class="div1">
-</div>
-
 </div>
 
 
 <div class="flexbox">
-
-<div class="div1">
-</div>
 
 <div class="div1">
 </div>
