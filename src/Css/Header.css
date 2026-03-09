@@ -5,6 +5,7 @@
     height: 100vh;
     display: flex;
     padding-left: 5rem;
+    padding-top: 1.5rem;
 }
 
 .imgHeader {
