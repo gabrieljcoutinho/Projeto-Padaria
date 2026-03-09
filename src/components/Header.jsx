@@ -4,7 +4,11 @@ import "../Css/Header.css"
 
 const Header = () => {
   return (
-    <div>Testando cdigo em JSX</div>
+    <div className='header'>
+
+
+
+    </div>
   )
 }
 
