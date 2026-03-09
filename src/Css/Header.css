@@ -6,6 +6,11 @@
     display: flex;
 }
 
+.imgHeader {
+    width: 30px;
+    height: 30px;
+}
+
 .headerLista {
     display: flex;
 }
