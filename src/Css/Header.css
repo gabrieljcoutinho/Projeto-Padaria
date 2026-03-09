@@ -16,6 +16,7 @@
 .headerLista {
     display: flex;
     padding-top: 2rem;
+    gap: 20px;
 }
 
 .linkHeader {
