@@ -1,57 +1,49 @@
-import React from 'react'
-import "../Css/produtos.css"
+import React from "react";
+import "../Css/produtos.css";
 
-import produt1 from "../img/product1.png"
-import produt2 from "../img/product2.png"
-import produt3 from "../img/product3.png"
-import produt4 from "../img/product4.png"
-import produt5 from "../img/product5.png"
-import produt6 from "../img/product6.png"
+import produt1 from "../img/product1.png";
+import produt2 from "../img/product2.png";
+import produt3 from "../img/product3.png";
+import produt4 from "../img/product4.png";
+import produt5 from "../img/product5.png";
+import produt6 from "../img/product6.png";
 
 const Produtos = () => {
   return (
-    <div className='produtosVendas'>
+    <div className="produtosVendas">
 
       <h2 className="tituloProdutos">Top Products</h2>
 
+      <div className="flexbox">
 
-      <div class="flexbox">
+        <div className="cardProduto">
+          <img src={produt1} alt="produto 1" className="imgProduct"/>
+        </div>
 
-<div class="div1">
+        <div className="cardProduto">
+          <img src={produt2} alt="produto 2" className="imgProduct"/>
+        </div>
 
-      <img src={produt1} alt="" className='imgProduct'/>
+        <div className="cardProduto">
+          <img src={produt3} alt="produto 3" className="imgProduct"/>
+        </div>
 
-</div>
+        <div className="cardProduto">
+          <img src={produt4} alt="produto 4" className="imgProduct"/>
+        </div>
 
-<div class="div1">
-<img src={produt2} alt="" className='imgProduct'/>
-</div>
+        <div className="cardProduto">
+          <img src={produt5} alt="produto 5" className="imgProduct"/>
+        </div>
 
-<div class="div1">
-<img src={produt3} alt="" className='imgProduct'/>
-</div>
+        <div className="cardProduto">
+          <img src={produt6} alt="produto 6" className="imgProduct"/>
+        </div>
 
-</div>
-
-
-<div class="flexbox">
-
-<div class="div1">
-<img src={produt4} alt="" className='imgProduct'/>
-</div>
-
-<div class="div1">
-<img src={produt5} alt="" className='imgProduct'/>
-</div>
-
-<div class="div1">
-<img src={produt6} alt="" className='imgProduct'/>
-</div>
-
-</div>
+      </div>
 
     </div>
-  )
-}
+  );
+};
 
-export default Produtos
+export default Produtos;
