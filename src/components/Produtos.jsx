@@ -6,6 +6,7 @@ import produt2 from "../img/product2.png"
 import produt3 from "../img/product3.png"
 import produt4 from "../img/product4.png"
 import produt5 from "../img/product5.png"
+import produt6 from "../img/product6.png"
 
 const Produtos = () => {
   return (
