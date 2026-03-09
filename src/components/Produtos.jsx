@@ -37,6 +37,7 @@ const Produtos = () => {
 <div class="flexbox">
 
 <div class="div1">
+<img src={produt4} alt="" className='imgProduct'/>
 </div>
 
 <div class="div1">
