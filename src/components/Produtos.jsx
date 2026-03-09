@@ -3,7 +3,13 @@ import "../Css/produtos.css"
 
 const Produtos = () => {
   return (
-    <div>Produtos</div>
+    <div>
+
+      <h2 className="tituloProdutos">Top Porducts</h2>
+
+
+
+    </div>
   )
 }
 
