@@ -2,6 +2,7 @@ import React from 'react'
 import "../Css/produtos.css"
 
 import produt1 from "../img/product1.png"
+import produt2 from "../img/product2.png"
 
 const Produtos = () => {
   return (
