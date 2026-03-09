@@ -16,7 +16,7 @@
 .headerLista {
     display: flex;
     padding-top: 2rem;
-    gap: 20px;
+    gap: 50px;
     padding-left: 5rem;
     list-style-type: none;
 
