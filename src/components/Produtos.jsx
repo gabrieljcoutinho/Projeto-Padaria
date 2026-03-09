@@ -19,31 +19,37 @@ const Produtos = () => {
         <div className="cardProduto">
           <img src={produt1} alt="produto 1" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
         <div className="cardProduto">
           <img src={produt2} alt="produto 2" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
         <div className="cardProduto">
           <img src={produt3} alt="produto 3" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
         <div className="cardProduto">
           <img src={produt4} alt="produto 4" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
         <div className="cardProduto">
           <img src={produt5} alt="produto 5" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
         <div className="cardProduto">
           <img src={produt6} alt="produto 6" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <p className="nomeDoProduto"></p>
         </div>
 
       </div>
