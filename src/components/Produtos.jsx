@@ -33,6 +33,7 @@ const Produtos = () => {
         <div className="cardProduto">
           <img src={produt3} alt="produto 3" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <br />
           <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
