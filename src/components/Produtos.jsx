@@ -8,7 +8,21 @@ const Produtos = () => {
       <h2 className="tituloProdutos">Top Products</h2>
 
 
-          
+      <div class="flexbox">
+
+<div class="div1">
+</div>
+
+<div class="div1">
+</div>
+
+<div class="div1">
+</div>
+
+<div class="div1">
+</div>
+
+</div>*/
 
     </div>
   )
