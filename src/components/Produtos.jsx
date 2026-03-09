@@ -11,12 +11,17 @@ const Produtos = () => {
         <div className="pordutosConteudo">
 
 
-      <div className="divsConteudo"></div>
-      <div className="divsConteudo"></div>
-      <div className="divsConteudo"></div>
-      <div className="divsConteudo"></div>
-      <div className="divsConteudo"></div>
-      <div className="divsConteudo"></div>
+      <div className="divsConteudo">
+1
+      </div>
+
+      <div className="divsConteudo">
+
+      </div>
+
+      <div className="divsConteudo">
+
+      </div>
 
         </div>
 
