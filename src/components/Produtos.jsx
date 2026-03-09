@@ -41,6 +41,7 @@ const Produtos = () => {
 </div>
 
 <div class="div1">
+<img src={produt5} alt="" className='imgProduct'/>
 </div>
 
 <div class="div1">
