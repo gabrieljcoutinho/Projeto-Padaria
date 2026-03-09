@@ -19,7 +19,7 @@ const Produtos = () => {
 
 <div class="div1">
 
-      <img src={produt1} alt="" />
+      <img src={produt1} alt="" className='imgProduct'/>
 
 </div>
 
