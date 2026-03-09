@@ -1,5 +1,6 @@
 import '../src/index.css';
 import Header from "../src/components/Header.jsx"
+import Produtos from "../src/components/Produtos.jsx"
 
 
 
