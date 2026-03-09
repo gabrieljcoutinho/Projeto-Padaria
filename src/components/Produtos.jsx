@@ -54,6 +54,7 @@ const Produtos = () => {
         <div className="cardProduto">
           <img src={produt6} alt="produto 6" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <br />
      <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
