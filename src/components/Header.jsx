@@ -8,6 +8,8 @@ const Header = () => {
   return (
     <div className='header'>
 
+          <img src={logoHeader} alt="" />
+
             <ul className="headerLista">
 
             </ul>
