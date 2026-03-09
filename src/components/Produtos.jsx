@@ -18,6 +18,9 @@ const Produtos = () => {
       <div class="flexbox">
 
 <div class="div1">
+
+      <img src={produt1} alt="" />
+
 </div>
 
 <div class="div1">
