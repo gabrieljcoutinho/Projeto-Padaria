@@ -3,7 +3,7 @@ import "../Css/produtos.css"
 
 const Produtos = () => {
   return (
-    <div>
+    <div className='produtosVendas'>
 
       <h2 className="tituloProdutos">Top Products</h2>
 
