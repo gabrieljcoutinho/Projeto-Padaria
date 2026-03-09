@@ -8,7 +8,7 @@ const Produtos = () => {
       <h2 className="tituloProdutos">Top Products</h2>
 
 
-        <div className="pordutosConteudo">
+        <div className="produtosConteudo">
 
 
       <div className="divsConteudo">
@@ -24,6 +24,24 @@ const Produtos = () => {
       </div>
 
         </div>
+
+
+        <div className="produtosConteudo">
+
+
+<div className="divsConteudo">
+1
+</div>
+
+<div className="divsConteudo">
+
+</div>
+
+<div className="divsConteudo">
+
+</div>
+
+  </div>
 
 
     </div>
