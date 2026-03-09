@@ -5,7 +5,7 @@ const Produtos = () => {
   return (
     <div>
 
-      <h2 className="tituloProdutos">Top Porducts</h2>
+      <h2 className="tituloProdutos">Top Products</h2>
 
 
 
