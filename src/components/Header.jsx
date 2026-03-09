@@ -19,7 +19,7 @@ const Header = () => {
 
             <di className="conteudoheader">
 
-                <p className="header">Delicius Cafe</p>
+                <p className="paragrafoHeader">Delicius Cafe</p>
 
             </di>
 
