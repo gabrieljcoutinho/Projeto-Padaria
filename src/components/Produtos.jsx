@@ -8,41 +8,7 @@ const Produtos = () => {
       <h2 className="tituloProdutos">Top Products</h2>
 
 
-        <div className="produtosConteudo">
-
-
-      <div className="divsConteudo">
-
-      </div>
-
-      <div className="divsConteudo">
-
-      </div>
-
-      <div className="divsConteudo">
-
-      </div>
-
-        </div>
-
-
-        <div className="produtosConteudo">
-
-
-<div className="divsConteudo">
-
-</div>
-
-<div className="divsConteudo">
-
-</div>
-
-<div className="divsConteudo">
-
-</div>
-
-  </div>
-
+          
 
     </div>
   )
