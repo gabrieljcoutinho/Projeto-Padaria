@@ -13,7 +13,7 @@ const Header = () => {
             <ul className="headerLista">
              <li className="listaHeader"><a href="#">Home</a></li>
              <li className="listaHeader"><a href="#">Blog</a></li>
-             <li className="listaHeader">Contact Us</li>
+             <li className="listaHeader"><a href="#">Contact Us</a></li>
              <li className="listaHeader">Services</li>
             </ul>
 
