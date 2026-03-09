@@ -24,6 +24,8 @@ const Header = () => {
                 <h1 className='tituloprincipal'>Sweet Treats, <br />
                   Perfect Eats</h1>
 
+                  <button>Shoop now</button>
+
             </di>
 
 
