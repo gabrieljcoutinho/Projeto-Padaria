@@ -24,7 +24,7 @@
 }
 
 .flexbox div{
-    background-color: deepskyblue;
+    background-image: url(../img/fundoProdutos.png);
     width: 300px;
     margin: 15px;
 }
