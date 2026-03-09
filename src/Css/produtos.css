@@ -1,5 +1,9 @@
 @import url("../fonts/Sansita.css");
 
+.produtosVendas {
+    background-color: red;
+}
+
 .tituloProdutos {
     font-family: 'Sansita';
     font-size: 50px;
