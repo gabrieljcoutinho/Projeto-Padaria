@@ -40,6 +40,7 @@ const Produtos = () => {
         <div className="cardProduto">
           <img src={produt4} alt="produto 4" className="imgProduct"/>
           <p className="precoProdutos">$40</p>
+          <br />
      <p className="nomeDoProduto">Whole GrainBread</p>
         </div>
 
