@@ -11,7 +11,7 @@ const Header = () => {
           <img src={logoHeader} alt="" />
 
             <ul className="headerLista">
-             <li className="listaHeader"></li>
+             <li className="listaHeader">Home</li>
              <li className="listaHeader"></li>
              <li className="listaHeader"></li>
              <li className="listaHeader"></li>
