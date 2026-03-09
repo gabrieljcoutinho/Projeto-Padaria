@@ -1,6 +1,6 @@
 .header {
-    background-image: url("../img//fundoHeader.png");
-    background-size: 100%;
+    background-image: url("../img/fundoHeader.png");
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    height: 100vh;
 }
