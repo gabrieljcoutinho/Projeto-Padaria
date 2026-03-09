@@ -17,7 +17,7 @@ const Header = () => {
              <li className="listaHeader"><a href="#" className='linkHeader'>Services</a></li>
             </ul>
 
-            <di className="conteudoheader">
+            <di className="conteudoHeader">
 
                 <p className="paragrafoHeader">Delicius Cafe</p>
 
