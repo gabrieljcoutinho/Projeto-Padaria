@@ -1,1 +1,5 @@
-@import url("../fonts/Sansita.css")
+@import url("../fonts/Sansita.css");
+
+.tituloProdutos{
+    font-family: 'Sansita';
+}
