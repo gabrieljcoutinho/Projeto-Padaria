@@ -24,6 +24,7 @@ const Produtos = () => {
 </div>
 
 <div class="div1">
+<img src={produt2} alt="" className='imgProduct'/>
 </div>
 
 <div class="div1">
