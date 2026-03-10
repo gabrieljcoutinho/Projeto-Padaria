@@ -1,97 +1,113 @@
 @import url("../fonts/Sansita.css");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .produtosVendas {
-    min-height: 1510px;
-    width: 100%;
-    padding-bottom: 50px;
+  width: 100%;
+  padding-bottom: 80px;
 }
 
 .tituloProdutos {
-    font-family: 'Sansita';
-    font-size: 50px;
-    text-align: center;
-    padding-top: 3rem;
-    margin-bottom: 20px;
+  font-family: 'Sansita';
+  font-size: 50px;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 20px;
 }
 
 .flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding: 50px 5%;
-    max-width: 1400px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .cardProduto {
-    background-image: url("../img/fundoProdutos.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: calc(33.33% - 20px);
-    min-width: 280px;
-    height: 500px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 25px;
+  background-image: url("../img/fundoProdutos.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: calc(33.33% - 20px);
+  min-width: 280px;
+  height: 520px;
+
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 35px 25px;
 }
 
 .imgProduct {
-    width: 160px;
-    height: auto;
+  width: 160px;
+  margin-bottom: 10px;
 }
 
 .nomeDoProduto {
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    font-family: 'Sansita', sans-serif;
-    margin-bottom: 10px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+  margin-bottom: 10px;
+}
+
+.descricaoProduto {
+  color: #e0e0e0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 0 10px;
 }
 
 .infoPreco {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
 }
 
 .precoProdutos {
-    color: #fff;
-    font-size: 26px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .btnCarrinho {
-    background-color: #5D4037;
-    /* Tom de Marrom */
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-    font-family: Arial, sans-serif;
+  background-color: #5D4037;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 10px 20px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
 }
 
 .btnCarrinho:hover {
-    background-color: #3E2723;
-    /* Marrom mais escuro no hover */
-    transform: translateY(-2px);
+  background-color: #3E2723;
+  transform: translateY(-2px);
 }
 
 .flexbox img {
-    max-width: 100%;
+  max-width: 100%;
 }
