@@ -38,57 +38,58 @@
     width: calc(33.33% - 20px);
     min-width: 280px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* Garante que o conteúdo se espalhe */
-    padding: 30px 20px;
+    padding: 40px 25px;
 }
 
 .imgProduct {
-    width: 180px;
+    width: 160px;
     height: auto;
 }
 
 .nomeDoProduto {
     color: #fff;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
     font-family: 'Sansita', sans-serif;
+    margin-bottom: 10px;
 }
 
-/* Container do Preço e Botão */
 .infoPreco {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 15px;
 }
 
 .precoProdutos {
     color: #fff;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .btnCarrinho {
-    background-color: #fff;
-    color: #000;
+    background-color: #5D4037;
+    /* Tom de Marrom */
+    color: #ffffff;
     border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 24px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: Arial, sans-serif;
 }
 
 .btnCarrinho:hover {
-    transform: scale(1.1);
+    background-color: #3E2723;
+    /* Marrom mais escuro no hover */
+    transform: translateY(-2px);
 }
 
 .flexbox img {
