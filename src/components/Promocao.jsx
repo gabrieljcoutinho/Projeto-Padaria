@@ -3,7 +3,11 @@ import "../Css/Promocao.css"
 
 const Promocao = () => {
   return (
-    <div className='promocao'>Promocao</div>
+    <div className='promocao'>
+
+        <h2>20% Off  Your First Order</h2>
+
+    </div>
   )
 }
 
