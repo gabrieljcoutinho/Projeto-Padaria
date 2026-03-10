@@ -11,55 +11,69 @@ import produt6 from "../img/product6.png";
 const Produtos = () => {
   return (
     <div className="produtosVendas">
-
       <h2 className="tituloProdutos">Top Products</h2>
 
       <div className="flexbox">
-
+        {/* Card 1 */}
         <div className="cardProduto">
-          <img src={produt1} alt="produto 1" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-          <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt1} alt="produto 1" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
 
+        {/* Card 2 */}
         <div className="cardProduto">
-          <img src={produt2} alt="produto 2" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-          <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt2} alt="produto 2" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
 
+        {/* Card 3 */}
         <div className="cardProduto">
-          <img src={produt3} alt="produto 3" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-          <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt3} alt="produto 3" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
 
+        {/* Card 4 */}
         <div className="cardProduto">
-          <img src={produt4} alt="produto 4" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-     <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt4} alt="produto 4" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
 
+        {/* Card 5 */}
         <div className="cardProduto">
-          <img src={produt5} alt="produto 5" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-     <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt5} alt="produto 5" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
 
+        {/* Card 6 */}
         <div className="cardProduto">
-          <img src={produt6} alt="produto 6" className="imgProduct"/>
-          <p className="precoProdutos">$40</p>
-          <br />
-     <p className="nomeDoProduto">Whole GrainBread</p>
+          <img src={produt6} alt="produto 6" className="imgProduct" />
+          <p className="nomeDoProduto">Whole Grain Bread</p>
+          <div className="infoPreco">
+            <p className="precoProdutos">$40</p>
+            <button className="btnCarrinho">+</button>
+          </div>
         </div>
-
       </div>
-
     </div>
   );
 };
