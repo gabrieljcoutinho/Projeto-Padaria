@@ -20,7 +20,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
 
@@ -30,7 +30,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
 
@@ -40,7 +40,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ const Produtos = () => {
           <p className="nomeDoProduto">Whole Grain Bread</p>
           <div className="infoPreco">
             <p className="precoProdutos">$40</p>
-            <button className="btnCarrinho">+</button>
+            <button className="btnCarrinho">ADD</button>
           </div>
         </div>
       </div>
