@@ -1,7 +1,15 @@
 @import url("../fonts/Sansita.css");
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .produtosVendas {
-    height: 1510px;
+    min-height: 1510px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .tituloProdutos {
@@ -12,48 +20,54 @@
 }
 
 .flexbox {
-    padding-top: 5rem;
-    height: 440px;
     display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 15px;
-    justify-content: space-between;
-    padding: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.flexbox img {
-    width: 300px;
-}
-
-.flexbox div {
+/* Estilização do Card (as divs dentro da flexbox) */
+.cardProduto {
     background-image: url("../img/fundoProdutos.png");
     background-size: cover;
-    /* Faz a imagem cobrir toda a div */
     background-position: center;
-    /* Centraliza a imagem */
     background-repeat: no-repeat;
-    /* Evita repetição */
-    width: 400px;
-    margin: 100px;
+
+    /* Cálculo para 3 itens por linha considerando o gap */
+    width: calc(33.33% - 20px);
+    min-width: 280px;
     height: 500px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-
 .imgProduct {
-    width: 120px;
-    padding-left: 3rem;
-    padding-top: 0.5rem;
+    width: 180px; /* Ajustado para melhor visibilidade */
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .precoProdutos {
     color: #fff;
     font-size: 25px;
-    padding-left: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.nomeDoProduto{
+.nomeDoProduto {
     color: #fff;
     font-size: 25px;
-    padding-left: 1rem;
+    text-align: center;
+}
+
+/* Ajuste para imagens dentro do card se necessário */
+.flexbox img {
+    max-width: 100%;
 }
