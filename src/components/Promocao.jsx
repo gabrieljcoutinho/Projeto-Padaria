@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Css/Promocao.css"
+import fundopromocao from "../img/fundoPromocao.png"
 
 const Promocao = () => {
   return (
