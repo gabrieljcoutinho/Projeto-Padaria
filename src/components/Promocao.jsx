@@ -6,7 +6,7 @@ const Promocao = () => {
   return (
     <div className='promocao'>
 
-        <h2>20% Off  Your First Order</h2>
+        <h2 className='subTitulo'>20% Off  Your First Order</h2>
 
 
 
