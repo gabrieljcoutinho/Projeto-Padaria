@@ -8,7 +8,7 @@ const Promocao = () => {
 
         <h2 className='subTitulo'>20% Off  Your First Order</h2>
 
-
+          <p className="promocaoDescricao">Suspendisse ar rhoncud nisl eu tempor urna. Curabitur vel bibenjgg</p>
 
     </div>
   )
