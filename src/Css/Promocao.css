@@ -1,3 +1,6 @@
-.promocao{
+.promocao {
     background-image: url(../img//fundoPromocao.png);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
 }
