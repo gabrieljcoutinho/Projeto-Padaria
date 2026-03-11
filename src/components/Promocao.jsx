@@ -8,6 +8,8 @@ const Promocao = () => {
 
         <h2>20% Off  Your First Order</h2>
 
+        <img src={fundopromocao} alt="" />
+
     </div>
   )
 }
