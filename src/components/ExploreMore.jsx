@@ -5,7 +5,7 @@ const ExploreMore = () => {
   return (
     <div className='exploreMore'>
 
-                <h4 className='tituloSectionExploreMore'>explore More</h4>
+                <h4 className='tituloSectionExploreMore'>Explore More</h4>
 
     </div>
   )
