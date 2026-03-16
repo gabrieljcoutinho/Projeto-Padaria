@@ -3,7 +3,7 @@ import "../Css/exploremore.css"
 
 const ExploreMore = () => {
   return (
-    <div className='exploremore'>
+    <div className='exploreMore'>
 
                 <h4 className='tituloSectionExploreMore'>explore More</h4>
 
