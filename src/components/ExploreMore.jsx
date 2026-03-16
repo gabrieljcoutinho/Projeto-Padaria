@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Css/exploremore.css"
 
+import exploreMore1 from "../img/exploreMore1.png"
+
 const ExploreMore = () => {
   return (
     <div className='exploreMore'>
