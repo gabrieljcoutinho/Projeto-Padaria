@@ -2,6 +2,7 @@ import React from 'react'
 import "../Css/exploremore.css"
 
 import exploreMore1 from "../img/exploreMore1.png"
+import exploreMore2 from "../img/exploreMore2.png"
 
 const ExploreMore = () => {
   return (
