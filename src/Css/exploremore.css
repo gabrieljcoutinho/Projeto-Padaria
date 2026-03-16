@@ -20,7 +20,11 @@
 }
 
 .pratos {
-    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+.imgExploreMore{
     width: 500px;
     height: 500px;
 }
