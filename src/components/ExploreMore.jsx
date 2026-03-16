@@ -10,7 +10,10 @@ const ExploreMore = () => {
 
                 <div className="moreConteudoShop">
 
-                    
+                                <div className="pratos">
+                                    
+                                </div>
+
                 </div>
 
     </div>
