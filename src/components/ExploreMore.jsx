@@ -19,6 +19,11 @@ const ExploreMore = () => {
 
                                     </div>
 
+                                    <div className="pratos">
+
+                                    </div>
+
+
                 </div>
 
     </div>
