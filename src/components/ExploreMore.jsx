@@ -7,6 +7,12 @@ const ExploreMore = () => {
 
                 <h4 className='tituloSectionExploreMore'>Explore More</h4>
 
+
+                <div className="moreConteudoShop">
+
+                    
+                </div>
+
     </div>
   )
 }
