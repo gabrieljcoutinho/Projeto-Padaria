@@ -3,7 +3,11 @@ import "../Css/exploremore.css"
 
 const ExploreMore = () => {
   return (
-    <div>ExploreMore</div>
+    <div>
+
+                <h4 className='tituloSectionExploreMore'>explore More</h4>
+
+    </div>
   )
 }
 
