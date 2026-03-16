@@ -7,7 +7,11 @@
 
 .tituloSectionExploreMore {
     font-family: 'sansita';
-  text-align: center;
-  font-size: 50px;
-  padding-top: 2rem;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2rem;
+}
+
+.moreConteudoShop {
+    display: flex;
 }
