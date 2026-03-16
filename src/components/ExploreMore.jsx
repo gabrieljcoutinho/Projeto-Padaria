@@ -46,7 +46,7 @@ const ExploreMore = () => {
                                     </div>
 
                                     <div className="pratos">
-                                    <img src={exploreMore1} alt="" className="imgExploreMore" />
+                                    <img src={exploreMore6} alt="" className="imgExploreMore" />
                                     </div>
 
 
