@@ -21,6 +21,10 @@
     font-size: 30px;
 }
 
+.movimentacaoBtnPromocao {
+    padding-left: 5rem;
+}
+
 .btnPromocaoLearMore {
     background: none;
     border: none;
