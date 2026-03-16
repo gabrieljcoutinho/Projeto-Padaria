@@ -19,7 +19,7 @@ const ExploreMore = () => {
                 <div className="moreConteudoShop">
 
                                 <div className="pratos">
-                                            <img src={} alt="" className="imgExploreMore" />
+                                            <img src={exploreMore1} alt="" className="imgExploreMore" />
                                 </div>
 
 
