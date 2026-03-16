@@ -10,7 +10,9 @@ const Promocao = () => {
 
           <p className="promocaoDescricao">Suspendisse ar rhoncud nisl eu tempor urna. Curabitur vel bibenjgg</p>
 
-    <button className='btnPromocaoLearMore'>Learn More</button>
+          <div className="movimentacaoBtnPromocao">
+          <button className='btnPromocaoLearMore'>Learn More</button>
+          </div>
 
     </div>
   )
