@@ -11,16 +11,16 @@ const ExploreMore = () => {
                 <div className="moreConteudoShop">
 
                                 <div className="pratos">
-
+        1
                                 </div>
 
 
                                 <div className="pratos">
-
+1
                                     </div>
 
                                     <div className="pratos">
-
+1
                                     </div>
 
 
@@ -29,16 +29,16 @@ const ExploreMore = () => {
                 <div className="moreConteudoShop">
 
                                 <div className="pratos">
-
+1
                                 </div>
 
 
                                 <div className="pratos">
-
+1
                                     </div>
 
                                     <div className="pratos">
-
+1
                                     </div>
 
 
