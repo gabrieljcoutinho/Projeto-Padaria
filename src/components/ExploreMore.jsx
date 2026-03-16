@@ -24,11 +24,11 @@ const ExploreMore = () => {
 
 
                                 <div className="pratos">
-1         <img src={exploreMore1} alt="" className="imgExploreMore" />
+       <img src={exploreMore1} alt="" className="imgExploreMore" />
                                     </div>
 
                                     <div className="pratos">
-1
+                    <img src={exploreMore1} alt="" className="imgExploreMore" />
                                     </div>
 
 
