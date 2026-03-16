@@ -5,6 +5,7 @@ import exploreMore1 from "../img/exploreMore1.png"
 import exploreMore2 from "../img/exploreMore2.png"
 import exploreMore3 from "../img/exploreMore3.png"
 import exploreMore4 from "../img/exploreMore4.png"
+import exploreMore5 from "../img/exploreMore5.png"
 
 
 const ExploreMore = () => {
