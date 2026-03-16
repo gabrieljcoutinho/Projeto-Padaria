@@ -3,6 +3,8 @@ import "../Css/exploremore.css"
 
 import exploreMore1 from "../img/exploreMore1.png"
 import exploreMore2 from "../img/exploreMore2.png"
+import exploreMore3 from "../img/exploreMore3.png"
+
 
 const ExploreMore = () => {
   return (
