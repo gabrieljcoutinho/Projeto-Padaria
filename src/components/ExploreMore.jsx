@@ -26,6 +26,24 @@ const ExploreMore = () => {
 
                 </div>
 
+                <div className="moreConteudoShop">
+
+                                <div className="pratos">
+
+                                </div>
+
+
+                                <div className="pratos">
+
+                                    </div>
+
+                                    <div className="pratos">
+
+                                    </div>
+
+
+                </div>
+
     </div>
   )
 }
