@@ -19,7 +19,7 @@ const ExploreMore = () => {
                 <div className="moreConteudoShop">
 
                                 <div className="pratos">
-        1
+                                            <img src={} alt="" className="imgExploreMore" />
                                 </div>
 
 
