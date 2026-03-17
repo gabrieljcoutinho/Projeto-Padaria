@@ -16,6 +16,13 @@ const ExploreMore = () => {
                 <h4 className='tituloSectionExploreMore'>Explore More</h4>
 
 
+                <ul className="listaTopicosDeComidas">
+
+                        <li className="listaExploreMoreFoods"><a href="" className="linksTopicosComidaExploreMore"></a></li>
+
+                </ul>
+
+
                 <div className="moreConteudoShop">
 
                                 <div className="pratos">
