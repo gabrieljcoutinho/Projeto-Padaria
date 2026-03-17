@@ -27,6 +27,12 @@
     font-size: 20px;
 }
 
+
+.linksTopicosComidaExploreMore:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .moreConteudoShop {
     display: flex;
     gap: 30px;
