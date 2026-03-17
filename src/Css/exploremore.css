@@ -11,6 +11,10 @@
     padding-top: 2rem;
 }
 
+.listaTopicosDeComidas {
+    display: flex;
+}
+
 .moreConteudoShop {
     display: flex;
     gap: 30px;
@@ -23,7 +27,7 @@
     height: 500px;
 }
 
-.imgExploreMore{
+.imgExploreMore {
     width: 500px;
     height: 500px;
 }
