@@ -21,7 +21,8 @@ const ExploreMore = () => {
                         <li className="listaExploreMoreFoods">Cake<a href="" className="linksTopicosComidaExploreMore"></a></li>
                         <li className="listaExploreMoreFoods">Muffins<a href="" className="linksTopicosComidaExploreMore"></a></li>
                         <li className="listaExploreMoreFoods">Croissant<a href="" className="linksTopicosComidaExploreMore"></a></li>
-                        <li className="listaExploreMoreFoods">bread<a href="" className="linksTopicosComidaExploreMore"></a></li>
+                        <li className="listaExploreMoreFoods">Bread<a href="" className="linksTopicosComidaExploreMore"></a></li>
+                        <li className="listaExploreMoreFoods">Tart<a href="" className="linksTopicosComidaExploreMore"></a></li>
 
                 </ul>
 
