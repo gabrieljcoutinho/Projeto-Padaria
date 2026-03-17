@@ -16,6 +16,10 @@
     gap: 20px;
 }
 
+.linksTopicosComidaExploreMore {
+    text-decoration: none;
+}
+
 .moreConteudoShop {
     display: flex;
     gap: 30px;
