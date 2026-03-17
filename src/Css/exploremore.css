@@ -37,9 +37,9 @@
     bottom: -4px;
     /* ajusta a distância */
     width: 0;
-    height: 2px;
+    height: 5px;
     background-color: #5d5d5d;
-    transition: width 0.3s ease;
+    transition: width 0.4s ease;
 }
 
 /* animação no hover */
