@@ -19,6 +19,7 @@ const ExploreMore = () => {
                 <ul className="listaTopicosDeComidas">
 
                         <li className="listaExploreMoreFoods">Cake<a href="" className="linksTopicosComidaExploreMore"></a></li>
+                        <li className="listaExploreMoreFoods">Muffins<a href="" className="linksTopicosComidaExploreMore"></a></li>
 
                 </ul>
 
