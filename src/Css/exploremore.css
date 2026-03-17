@@ -21,16 +21,34 @@
 }
 
 .linksTopicosComidaExploreMore {
+    position: relative;
+    /* necessário */
     text-decoration: none;
     color: #5d5d5d;
     font-weight: 850;
     font-size: 20px;
 }
 
+/* linha invisível no começo */
+.linksTopicosComidaExploreMore::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* ajusta a distância */
+    width: 0;
+    height: 2px;
+    background-color: #5d5d5d;
+    transition: width 0.3s ease;
+}
 
+/* animação no hover */
 .linksTopicosComidaExploreMore:hover {
     cursor: pointer;
-    text-decoration: underline;
+}
+
+.linksTopicosComidaExploreMore:hover::after {
+    width: 100%;
 }
 
 .moreConteudoShop {
