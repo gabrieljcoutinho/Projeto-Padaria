@@ -22,7 +22,7 @@ const ExploreMore = () => {
                         <li className="listaExploreMoreFoods"><a href="" className="linksTopicosComidaExploreMore">Muffins</a></li>
                         <li className="listaExploreMoreFoods"><a href="" className="linksTopicosComidaExploreMore">Croissant</a></li>
                         <li className="listaExploreMoreFoods"><a href="" className="linksTopicosComidaExploreMore">Bread</a></li>
-                        <li className="listaExploreMoreFoods">Tart<a href="" className="linksTopicosComidaExploreMore"></a></li>
+                        <li className="listaExploreMoreFoods"><a href="" className="linksTopicosComidaExploreMore">Tart</a></li>
                         <li className="listaExploreMoreFoods">Favorite<a href="" className="linksTopicosComidaExploreMore"></a></li>
 
                 </ul>
