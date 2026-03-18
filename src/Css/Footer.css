@@ -40,14 +40,15 @@
     background-color: #000;
 }
 
-.conteudoFooter{
+.conteudoFooter {
     display: flex;
 }
 
-h4{
+h4 {
     color: #E9BD8D;
+    font-size: 30px;
 }
 
-.paragrafoConteudoListaFooter{
+.paragrafoConteudoListaFooter {
     color: #f5f5f5;
 }
