@@ -53,6 +53,7 @@ const Footer = () => {
                             <h4>Explore</h4>
                             <div className="paragrafoConteudoListaFooter">Home</div>
                             <div className="paragrafoConteudoListaFooter">Blog</div>
+                            <div className="paragrafoConteudoListaFooter">Contact Us</div>
                   </div>
 
       </ul>
