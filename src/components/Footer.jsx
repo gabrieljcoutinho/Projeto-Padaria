@@ -2,6 +2,7 @@ import React from 'react'
 import "../Css/Footer.css"
 
 import facebook from "../img/facebook.png"
+import pinterest from "../img/pinterest.png"
 
 import logoFooter from "../img/logoPadaria.png"
 
