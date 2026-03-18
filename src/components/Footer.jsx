@@ -42,7 +42,8 @@ const Footer = () => {
       <ul className="conteudoFooter">
 
                   <div className="aboutus">
-      
+                    <h4>About Us</h4>
+                          <p className="paragrafoConteudoListaFooter">(456) 789-12301</p>
 
                   </div>
 
