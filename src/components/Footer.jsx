@@ -15,7 +15,7 @@ const Footer = () => {
       <ul className="listaLogoEredesSocias">
 
                   <div className="itemimagemfooterLista">
-                          <img src={logoFooter} alt="" />
+                          <img src={logoFooter} alt=""  className='logoFooter'/>
                   </div>
 
 
