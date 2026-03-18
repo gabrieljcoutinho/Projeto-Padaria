@@ -44,6 +44,10 @@
     display: flex;
 }
 
+h4{
+    color: #E9BD8D;
+}
+
 .paragrafoConteudoListaFooter{
     color: #f5f5f5;
 }
