@@ -1,4 +1,6 @@
-.footer{
+.footer {
     background-image: url(../img//fundoProdutos.png);
     height: 500px;
+    background-repeat: no-repeat;
+    background-position: cover;
 }
