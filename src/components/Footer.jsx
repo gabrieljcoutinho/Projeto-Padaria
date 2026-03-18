@@ -41,7 +41,10 @@ const Footer = () => {
 
       <ul className="conteudoFooter">
 
-              
+                  <div className="aboutus">
+      
+
+                  </div>
 
       </ul>
 
