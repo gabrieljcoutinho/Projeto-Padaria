@@ -4,6 +4,10 @@
     background-size: cover;
 }
 
-.itensRedesSociais{
+.listaLogoEredesSocias {
+    display: flex;
+}
+
+.itensRedesSociais {
     display: flex;
 }
