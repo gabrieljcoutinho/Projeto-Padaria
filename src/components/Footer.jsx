@@ -36,7 +36,7 @@ const Footer = () => {
 
       </ul>
 
-      <hr />
+      <hr className='linhaSeparandoConteudoFooter' />
 
 
 
