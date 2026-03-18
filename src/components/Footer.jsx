@@ -50,7 +50,7 @@ const Footer = () => {
                   </div>
 
                   <div className="explore">
-                          
+                            <h4>Explore</h4>
                   </div>
 
       </ul>
