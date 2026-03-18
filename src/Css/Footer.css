@@ -48,6 +48,7 @@
     cursor: pointer;
 }
 
+
 h4 {
     color: #E9BD8D;
     padding-bottom: 1.5rem;
@@ -58,4 +59,9 @@ h4 {
     color: #f5f5f5;
     font-size: 25px;
     line-height: 60px;
+}
+
+.paragrafoConteudoListaFooter{
+    cursor: pointer;
+
 }
