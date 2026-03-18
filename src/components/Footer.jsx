@@ -25,7 +25,7 @@ const Footer = () => {
 
                           <ul className="itensRedesSociais">
                                         <li><a href="http://"><img src={facebook} alt="" /></a></li>
-                                        <li><a href="http://"></a></li>
+                                        <li><a href="http://"><img src={pinterest} alt="" /></a></li>
                                         <li><a href="http://"></a></li>
                                         <li><a href="http://"></a></li>
 
