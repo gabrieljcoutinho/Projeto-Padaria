@@ -1,67 +1,196 @@
 .footer {
     background-image: url(../img/fundoProdutos.png);
-    height: 900px;
+    min-height: 700px;
     background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Camada para legibilidade */
+    width: 100%;
+    height: 100%;
+    padding: 4rem 2rem;
 }
 
 .listaLogoEredesSocias {
     display: flex;
-    padding-left: 5rem;
-}
-
-.itensRedesSociais {
-    display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .logoFooter {
-    width: 150px;
+    width: 180px;
+    filter: drop-shadow(0 0 10px rgba(233, 189, 141, 0.3));
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.logoFooter:hover {
+    transform: rotate(5deg) scale(1.1);
 }
 
 .redesSociais {
     display: flex;
-    padding-top: 2.5rem;
-    padding-left: 100rem;
+    align-items: center;
+    gap: 20px;
 }
 
-.listaredesSociais {
-    list-style-type: none;
+.itensRedesSociais {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.listaredesSociais img {
+    width: 40px;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+}
+
+.listaredesSociais:hover img {
+    transform: translateY(-10px) rotate(360deg);
+    box-shadow: 0 10px 20px rgba(233, 189, 141, 0.5);
+    background-color: #E9BD8D;
 }
 
 .paragrafoFooter {
     color: #E9BD8D;
-    font-size: 30px;
-    padding-right: 2rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .linhaSeparandoConteudoFooter {
     border: none;
-    height: 2px;
-    background-color: #000;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #E9BD8D, transparent);
+    margin: 2rem 0;
 }
 
 .conteudoFooter {
-    display: flex;
-    gap: 330px;
-    padding-top: 5rem;
-    padding-left: 10rem;
-    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-top: 3rem;
 }
-
 
 h4 {
     color: #E9BD8D;
-    padding-bottom: 1.5rem;
-    font-size: 50px;
+    padding-bottom: 1rem;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+}
+
+h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 50px;
+    height: 2px;
+    background: #f5f5f5;
+    transition: width 0.3s ease;
+}
+
+.footer-section:hover h4::after {
+    width: 100%;
 }
 
 .paragrafoConteudoListaFooter {
     color: #f5f5f5;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 18px;
+    line-height: 2;
+    transition: all 0.3s ease;
+    position: relative;
+    width: fit-content;
 }
 
 .paragrafoConteudoListaFooter:hover {
+    color: #E9BD8D;
+    padding-left: 10px;
     cursor: pointer;
-    text-decoration: underline;
+}
+
+/* Newsletter Radical Style */
+.newsletter-box {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #E9BD8D;
+    padding: 5px;
+    border-radius: 50px;
+    transition: box-shadow 0.4s ease;
+}
+
+.newsletter-box:focus-within {
+    box-shadow: 0 0 15px #E9BD8D;
+}
+
+.newsletter-input {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    width: 70%;
+}
+
+.newsletter-btn {
+    background: #E9BD8D;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s active;
+}
+
+.newsletter-btn:hover {
+    filter: brightness(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 5rem;
+    color: rgba(245, 245, 245, 0.5);
+    font-size: 14px;
+}
+
+/* Css da responsividade desse componente */
+@media (max-width: 1200px) {
+    .conteudoFooter {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .listaLogoEredesSocias {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .redesSociais {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .conteudoFooter {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .paragrafoConteudoListaFooter {
+        margin: 0 auto;
+    }
+
+    .newsletter-box {
+        max-width: 300px;
+        margin: 20px auto;
+    }
 }
