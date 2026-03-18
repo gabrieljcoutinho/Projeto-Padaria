@@ -7,6 +7,10 @@ const Footer = () => {
   return (
     <div className='footer'>
 
+      <ul className="listaLogoEredesSocias">
+        
+      </ul>
+
 
 
     </div>
