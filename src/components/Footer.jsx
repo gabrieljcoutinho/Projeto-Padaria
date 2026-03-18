@@ -27,7 +27,7 @@ const Footer = () => {
                                         <li><a href="http://"><img src={facebook} alt="" /></a></li>
                                         <li><a href="http://"><img src={pinterest} alt="" /></a></li>
                                         <li><a href="http://"><img src={zap} alt="" /></a></li>
-                                        <li><a href="http://"></a></li>
+                                        <li><a href="http://"><img src={instagram} alt="" /></a></li>
 
                           </ul>
 
