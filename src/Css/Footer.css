@@ -43,6 +43,7 @@
 .conteudoFooter {
     display: flex;
     gap: 30px;
+    padding-top: 5rem;
 }
 
 h4 {
