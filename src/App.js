@@ -3,6 +3,7 @@ import Header from "../src/components/Header.jsx"
 import Produtos from "../src/components/Produtos.jsx"
 import Promocao from "../src/components/Promocao.jsx"
 import ExploreMore from "../src/components/ExploreMore.jsx"
+import Footer from "../src/components/Footer.jsx"
 
 
 
@@ -14,6 +15,7 @@ function App() {
           <Produtos/>
           <Promocao/>
           <ExploreMore/>
+          <Footer />
     </div>
   );
 }
