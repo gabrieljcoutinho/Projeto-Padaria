@@ -34,6 +34,8 @@
     padding-right: 2rem;
 }
 
-.linhaSeparandoConteudoFooter{
-    color: red;
+.linhaSeparandoConteudoFooter {
+    border: none;
+    height: 2px;
+    background-color: red;
 }
