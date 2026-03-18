@@ -49,6 +49,10 @@ const Footer = () => {
                           <div className="paragrafoConteudoListaFooter">New York America</div>
                   </div>
 
+                  <div className="explore">
+                          
+                  </div>
+
       </ul>
 
 
