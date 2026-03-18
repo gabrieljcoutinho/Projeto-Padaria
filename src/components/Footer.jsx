@@ -44,7 +44,7 @@ const Footer = () => {
                   <div className="aboutus">
                     <h4>About Us</h4>
                           <p className="paragrafoConteudoListaFooter">(456) 789-12301</p>
-
+                          <p className="paragrafoConteudoListaFooter">info@modrino.co.uk</p>
                   </div>
 
       </ul>
