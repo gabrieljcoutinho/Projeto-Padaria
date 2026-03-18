@@ -51,6 +51,7 @@ const Footer = () => {
 
                   <div className="explore">
                             <h4>Explore</h4>
+                            <div className="paragrafoConteudoListaFooter">Home</div>
                   </div>
 
       </ul>
