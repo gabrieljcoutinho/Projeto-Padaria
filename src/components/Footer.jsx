@@ -4,6 +4,7 @@ import "../Css/Footer.css"
 import facebook from "../img/facebook.png"
 import pinterest from "../img/pinterest.png"
 import zap from "../img/zap.png"
+import instagram from "../img/instagram.png"
 
 import logoFooter from "../img/logoPadaria.png"
 
