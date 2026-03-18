@@ -61,7 +61,7 @@ h4 {
     line-height: 60px;
 }
 
-.paragrafoConteudoListaFooter{
+.paragrafoConteudoListaFooter:hover {
     cursor: pointer;
-
+    text-decoration: underline;
 }
