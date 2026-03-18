@@ -11,16 +11,17 @@
 
 .itensRedesSociais {
     display: flex;
+    gap: 20px;
 }
 
 .logoFooter {
     width: 150px;
 }
 
-.redesSociais{
+.redesSociais {
     display: flex;
 }
 
-.listaredesSociais{
+.listaredesSociais {
     list-style-type: none;
 }
