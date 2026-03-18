@@ -11,3 +11,7 @@
 .itensRedesSociais {
     display: flex;
 }
+
+.logoFooter {
+    width: 500px;
+}
