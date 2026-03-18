@@ -8,7 +8,12 @@ const Footer = () => {
     <div className='footer'>
 
       <ul className="listaLogoEredesSocias">
-        
+
+                  <div className="itemimagemfooterLista">
+                          <img src={logoFooter} alt="" />
+                  </div>
+
+
       </ul>
 
 
