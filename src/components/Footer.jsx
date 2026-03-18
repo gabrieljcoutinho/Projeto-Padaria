@@ -54,6 +54,7 @@ const Footer = () => {
                             <div className="paragrafoConteudoListaFooter">Home</div>
                             <div className="paragrafoConteudoListaFooter">Blog</div>
                             <div className="paragrafoConteudoListaFooter">Contact Us</div>
+                            <div className="paragrafoConteudoListaFooter">Services</div>
                   </div>
 
       </ul>
