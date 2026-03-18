@@ -5,63 +5,69 @@ import facebook from "../img/facebook.png"
 import pinterest from "../img/pinterest.png"
 import zap from "../img/zap.png"
 import instagram from "../img/instagram.png"
-
 import logoFooter from "../img/logoPadaria.png"
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <footer className='footer'>
+      <div className="footer-overlay">
+        <div className="listaLogoEredesSocias">
+          <div className="itemimagemfooterLista">
+            <img src={logoFooter} alt="Logo" className='logoFooter' />
+          </div>
 
-      <ul className="listaLogoEredesSocias">
+          <div className="redesSociais">
+            <p className="paragrafoFooter">Follow us</p>
+            <ul className="itensRedesSociais">
+              <li className='listaredesSociais'><a href="#"><img src={facebook} alt="Facebook" /></a></li>
+              <li className='listaredesSociais'><a href="#"><img src={pinterest} alt="Pinterest" /></a></li>
+              <li className='listaredesSociais'><a href="#"><img src={zap} alt="WhatsApp" /></a></li>
+              <li className='listaredesSociais'><a href="#"><img src={instagram} alt="Instagram" /></a></li>
+            </ul>
+          </div>
+        </div>
 
-                  <div className="itemimagemfooterLista">
-                          <img src={logoFooter} alt=""  className='logoFooter'/>
-                  </div>
+        <hr className='linhaSeparandoConteudoFooter' />
 
+        <div className="conteudoFooter">
+          <div className="footer-section aboutus">
+            <h4>About Us</h4>
+            <p className="paragrafoConteudoListaFooter">(456) 789-12301</p>
+            <p className="paragrafoConteudoListaFooter">info@modrino.co.uk</p>
+            <p className="paragrafoConteudoListaFooter">South 13th Street</p>
+            <div className="paragrafoConteudoListaFooter">New York, America</div>
+          </div>
 
-                  <div className="redesSociais">
+          <div className="footer-section explore">
+            <h4>Explore</h4>
+            <div className="paragrafoConteudoListaFooter">Home</div>
+            <div className="paragrafoConteudoListaFooter">Blog</div>
+            <div className="paragrafoConteudoListaFooter">Contact Us</div>
+            <div className="paragrafoConteudoListaFooter">Services</div>
+          </div>
 
-                          <p className="paragrafoFooter">Follow us</p>
+          <div className="footer-section opening-hours">
+            <h4>Working Hours</h4>
+            <div className="paragrafoConteudoListaFooter">Mon - Fri: 07:00 - 20:00</div>
+            <div className="paragrafoConteudoListaFooter">Sat: 08:00 - 18:00</div>
+            <div className="paragrafoConteudoListaFooter">Sun: Closed</div>
+          </div>
 
-                          <ul className="itensRedesSociais">
-                                        <li className='listaredesSociais'><a href="#"><img src={facebook} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="#"><img src={pinterest} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="#"><img src={zap} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="#"><img src={instagram} alt="" /></a></li>
+          <div className="footer-section newsletter">
+            <h4>Newsletter</h4>
+            <p className="paragrafoConteudoListaFooter">Subscribe for fresh updates.</p>
+            <div className="newsletter-box">
+              <input type="email" placeholder="Your email..." className="newsletter-input" />
+              <button className="newsletter-btn">Join</button>
+            </div>
+          </div>
+        </div>
 
-                          </ul>
-
-                  </div>
-
-
-      </ul>
-
-      <hr className='linhaSeparandoConteudoFooter' />
-
-
-      <ul className="conteudoFooter">
-
-                  <div className="aboutus">
-                    <h4>About Us</h4>
-                          <p className="paragrafoConteudoListaFooter">(456) 789-12301</p>
-                          <p className="paragrafoConteudoListaFooter">info@modrino.co.uk</p>
-                          <p className="paragrafoConteudoListaFooter">Sout 13th street</p>
-                          <div className="paragrafoConteudoListaFooter">New York America</div>
-                  </div>
-
-                  <div className="explore">
-                            <h4>Explore</h4>
-                            <div className="paragrafoConteudoListaFooter">Home</div>
-                            <div className="paragrafoConteudoListaFooter">Blog</div>
-                            <div className="paragrafoConteudoListaFooter">Contact Us</div>
-                            <div className="paragrafoConteudoListaFooter">Services</div>
-                  </div>
-
-      </ul>
-
-
-
-    </div>
+        <div className="footer-bottom">
+          <p>&copy; 2026 Modrino Bakery. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   )
 }
 
