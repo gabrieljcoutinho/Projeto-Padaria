@@ -43,3 +43,7 @@
 .conteudoFooter{
     display: flex;
 }
+
+.paragrafoConteudoListaFooter{
+    color: #f5f5f5;
+}
