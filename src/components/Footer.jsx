@@ -24,10 +24,10 @@ const Footer = () => {
                           <p className="paragrafoFooter">Follow us</p>
 
                           <ul className="itensRedesSociais">
-                                        <li className='listaredesSociais'><a href="http://"><img src={facebook} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="http://"><img src={pinterest} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="http://"><img src={zap} alt="" /></a></li>
-                                        <li className='listaredesSociais'><a href="http://"><img src={instagram} alt="" /></a></li>
+                                        <li className='listaredesSociais'><a href="#"><img src={facebook} alt="" /></a></li>
+                                        <li className='listaredesSociais'><a href="#"><img src={pinterest} alt="" /></a></li>
+                                        <li className='listaredesSociais'><a href="#"><img src={zap} alt="" /></a></li>
+                                        <li className='listaredesSociais'><a href="#"><img src={instagram} alt="" /></a></li>
 
                           </ul>
 
