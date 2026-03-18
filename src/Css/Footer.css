@@ -6,6 +6,7 @@
 
 .listaLogoEredesSocias {
     display: flex;
+    padding-left: 5rem;
 }
 
 .itensRedesSociais {
