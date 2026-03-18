@@ -14,6 +14,13 @@ const Footer = () => {
                   </div>
 
 
+                  <div className="redesSociais">
+
+                          <p className="paragrafoFooter">Follow us</p>
+
+                  </div>
+
+
       </ul>
 
 
