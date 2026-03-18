@@ -39,3 +39,7 @@
     height: 2px;
     background-color: #000;
 }
+
+.conteudoFooter{
+    display: flex;
+}
